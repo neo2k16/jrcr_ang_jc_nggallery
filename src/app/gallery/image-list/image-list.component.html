@@ -1,5 +1,8 @@
+<ng-image-detail [selectedImage] = "selectedImage"></ng-image-detail>
+
 <div class="container">
     <div class="row">
-        <ng-image *ngFor = "let image of images" [image] = "image"></ng-image>
+        <!--BINDING: input [..] - output (..) -->
+        <ng-image *ngFor = "let image of images" [image] = "image" (click)="onSelect(image)"></ng-image>
     </div>
 </div>
