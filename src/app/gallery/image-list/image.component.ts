@@ -15,6 +15,9 @@ import { Image } from '../../models/image';
             filter: gray; /* IE6-9 */
             -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
         }
+        a:hover{
+            cursor: pointer;
+        }
     `]
 })
 
